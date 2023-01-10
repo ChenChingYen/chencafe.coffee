@@ -107,52 +107,6 @@ ul{
     align-items: space-around; */
 }
 
-.coffee-display{
-    height: 100%;
-    width: 100%;
-}
-
-.coffee-img{
-    height: 70%;
-}
-
-.coffee-list{
-    height: 700px;
-}
-
-.coffee-list li{
-    height: 175px;
-    width: 175px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.coffee-list li button{
-    display: block;
-    height: inherit;
-    width: inherit;
-    background-color: inherit;
-    border: none;
-    opacity: .5;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.coffee-list li button.selected, .coffee-list li button:hover{
-    opacity: 1;
-    transition: var(--slow-fade);
-    cursor: pointer;
-}
-
-.coffee-list li button *{
-    pointer-events: none;
-}
-
-#l-tab{background-color: white;}
-#c-tab{background-color: var(--cappuccino-pink);}
-#m-tab{background-color: black;color: white;}
-#a-tab{background-color: var(--americano-purple);}
-
 .footer-wrapper{
     background-color: white;
     display: flex;
